@@ -1,0 +1,106 @@
+/* For Question Component */
+
+.controlButton {
+  text-align: center;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.sub-category {
+  font-weight: lighter;
+  font-size: medium;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+  position: relative;
+  bottom: 20px;
+  color: #8d8686;
+}
+
+.question {
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 20px;
+}
+
+.displayQuestion{
+  width: 600px;
+  height: auto;
+  border: 1px solid;
+  margin-left: 71px;
+}
+
+.directQuestion {
+  
+  width: 250px;
+  height:auto;
+  background-color:lightgrey;
+  margin-left: 20px;
+}
+
+.clicked-button {
+  background-color: black;
+  color: white;
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+}
+
+.view-question {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.shortcut{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+
+
+li{
+  list-style: none;
+}
+
+li button {
+  border-radius: 7px;
+  width: 100%;
+}
+.answerButton {
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: auto auto;
+  margin-right: 30px;
+
+}
+
+/* For Star component */
+.stars {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 20px;
+  position: relative;
+  bottom: 41px;
+}
